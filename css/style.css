@@ -26,10 +26,15 @@ a{
     color: white;
 }
 
+.absolute{
+    position: absolute;
+}
+
 header{
     background-color: #ff6900;
     color: white;
     font-size: 1rem;
+    
 }
 
 header nav{
@@ -61,4 +66,109 @@ header nav .menu-icon{
 header nav .menu-icon img{
     height: 15px;
     padding: 0 3px;
+}
+
+main{
+}
+main .shop{
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+main .shop .item-box{
+    width: calc(100% / 3 - 20px);
+    margin-top: 50px;
+}
+
+main .shop .item-box:nth-child(3n+2){
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+main .shop .item-box .item{
+    position: relative;
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+main .shop .item-box:nth-of-type(1) .item{
+    background-image: url(../img/1.webp);
+}
+
+main .shop .item-box:nth-of-type(2) .item{
+    background-image: url(../img/2.webp);
+}
+
+main .shop .item-box:nth-of-type(3) .item{
+    background-image: url(../img/3.webp);
+}
+
+main .shop .item-box:nth-of-type(4) .item{
+    background-image: url(../img/4.webp);
+}
+
+main .shop .item-box:nth-of-type(5) .item{
+    background-image: url(../img/5.webp);
+}
+
+main .shop .item-box:nth-of-type(6) .item{
+    background-image: url(../img/6.webp);
+}
+
+main .shop .item-box .item .hearth{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    top: 10px;
+    right: 0;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+main .shop .item-box .item .banner{
+    font-weight: bold;
+    padding: 4px 10px;
+    color: white;
+    font-size: 1rem;
+}
+
+main .shop .item-box .item .discount{
+    background-color: #ff0000;
+    bottom: 40px;
+    left: 0;
+}
+
+main .shop .item-box .item .sustainability{
+    background-color: #008000;
+    bottom: 40px;
+    left: 60px;
+}
+
+main .shop .item-box:nth-child(6) .item .sustainability{
+    left: 0;
+}
+
+main .shop .item-box .brand-name{
+    font-size: 0.9rem;
+    padding: 5px 0;
+}
+
+main .shop .item-box .dress-name{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+main .shop .item-box .price{
+    display: inline-block;
+    font-size: 0.85rem;
+}
+
+main .shop .item-box .discounted{
+    color: #ff0000;
+    font-weight: 600;
+}
+
+main .shop .item-box .old{
+    text-decoration: line-through;
 }
