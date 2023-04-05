@@ -156,6 +156,10 @@ main .shop .item-box .item .hearth{
     font-size: 2.5rem;
 }
 
+main .shop .item-box:hover .item .hearth{
+    color: red;
+}
+
 main .shop .item-box .item .banner{
     font-weight: bold;
     padding: 4px 10px;
