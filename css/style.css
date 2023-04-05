@@ -30,11 +30,18 @@ a{
     position: absolute;
 }
 
+body{
+    padding-top: 50px;
+}
+
 header{
     background-color: #ff6900;
     color: white;
     font-size: 1rem;
-    
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
 }
 
 header nav{
@@ -184,6 +191,7 @@ footer .footer-menu{
     justify-content: space-between;
     align-items: center;
 }
+
 footer .footer-menu .info-box .title{
     font-weight: 600;
     padding-bottom: 10px;
