@@ -68,12 +68,11 @@ header nav .menu-icon img{
     padding: 0 3px;
 }
 
-main{
-}
 main .shop{
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
 main .shop .item-box{
     width: calc(100% / 3 - 20px);
     margin-top: 50px;
@@ -172,3 +171,39 @@ main .shop .item-box .discounted{
 main .shop .item-box .old{
     text-decoration: line-through;
 }
+
+footer{
+    background-color: #1a1a1a;
+    color: white;
+    font-size: 1rem;
+    padding: 30px 0;
+    margin-top: 50px;
+}
+
+footer .footer-menu{
+    justify-content: space-between;
+    align-items: center;
+}
+footer .footer-menu .info-box .title{
+    font-weight: 600;
+    padding-bottom: 10px;
+    font-size: 1.2rem;
+
+}
+
+footer .footer-menu .info-box li{
+    padding-right: 10px;
+    font-size: 0.85rem;
+}
+
+footer .footer-menu .social-box .find-us{
+    font-weight: 600;
+    font-size: 0.85rem;
+    padding-bottom: 10px;
+}
+
+footer .footer-menu .social-box .icon-box img{
+    height: 20px;
+    padding-right: 6px;
+}
+
