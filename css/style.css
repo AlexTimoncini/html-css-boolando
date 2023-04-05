@@ -102,24 +102,48 @@ main .shop .item-box:nth-of-type(1) .item{
     background-image: url(../img/1.webp);
 }
 
+main .shop .item-box:nth-of-type(1):hover .item{
+    background-image: url(../img/1b.webp);
+}
+
 main .shop .item-box:nth-of-type(2) .item{
     background-image: url(../img/2.webp);
+}
+
+main .shop .item-box:nth-of-type(2):hover .item{
+    background-image: url(../img/2b.webp);
 }
 
 main .shop .item-box:nth-of-type(3) .item{
     background-image: url(../img/3.webp);
 }
 
+main .shop .item-box:nth-of-type(3):hover .item{
+    background-image: url(../img/3b.webp);
+}
+
 main .shop .item-box:nth-of-type(4) .item{
     background-image: url(../img/4.webp);
+}
+
+main .shop .item-box:nth-of-type(4):hover .item{
+    background-image: url(../img/4b.webp);
 }
 
 main .shop .item-box:nth-of-type(5) .item{
     background-image: url(../img/5.webp);
 }
 
+main .shop .item-box:nth-of-type(5):hover .item{
+    background-image: url(../img/5b.webp);
+}
+
 main .shop .item-box:nth-of-type(6) .item{
     background-image: url(../img/6.webp);
+}
+
+main .shop .item-box:nth-of-type(6):hover .item{
+    background-image: url(../img/6b.webp);
 }
 
 main .shop .item-box .item .hearth{
