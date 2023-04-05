@@ -2,4 +2,63 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.flex{
+    display: flex;
+}
+
+.container-size{
+    max-width: 1400px;
+}
+
+.margin-center{
+    margin: auto;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+header{
+    background-color: #ff6900;
+    color: white;
+    font-size: 1rem;
+}
+
+header nav{
+    padding: 20px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav .target{
+    width: 13%;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+header nav .logo{
+    width: 74%;
+    text-align: center;
+}
+
+header nav .logo img{
+    height: 30px;
+}
+
+header nav .menu-icon{
+    width: 13%;
+    justify-content: flex-end;
+}
+
+header nav .menu-icon img{
+    height: 15px;
+    padding: 0 3px;
 }
