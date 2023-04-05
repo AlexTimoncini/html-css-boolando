@@ -166,24 +166,23 @@ main .shop .item-box:hover .item .hearth{
 
 main .shop .item-box .item .banner{
     font-weight: bold;
-    padding: 4px 10px;
     font-size: 1rem;
+    bottom: 40px;
+    left: 0;
 }
 
 main .shop .item-box .item .discount{
     background-color: #ff0000;
-    bottom: 40px;
-    left: 0;
+    display: inline-block;
+    padding: 4px 10px;
+
 }
 
 main .shop .item-box .item .sustainability{
     background-color: #008000;
-    bottom: 40px;
-    left: 60px;
-}
+    display: inline-block;
+    padding: 4px 10px;
 
-main .shop .item-box:nth-child(6) .item .sustainability{
-    left: 0;
 }
 
 main .shop .item-box .brand-name{
